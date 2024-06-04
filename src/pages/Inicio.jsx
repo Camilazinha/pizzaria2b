@@ -3,14 +3,15 @@ import logo from '../assets/react.svg'
 import '.../App.css'
 
 
-const Home = () => {
+const Inicio = () => {
 
     return (
         <div>
+            <h2>Título da página</h2>
             <p>Outra pagina inicial</p>
                 <img className='img-fluid' src={logo} alt='logo'> </img>
         </div>
     )
 }
 
-export default Home
+export default Inicio
